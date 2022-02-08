@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+    <meta name="description" content="Das ist ein ganz einfaches, gültiges HTML-Dokument">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://css.gg/chevron-left-r.css' rel='stylesheet'>
+    <link href='https://css.gg/chevron-right-r.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="head" style="display: flex;">
+           <a class="contact next" href="./help.html">HELP</a>
+            <h1 id="netflix">NETFLIX</h1>
+            <a class="sign next" href="./signin.html">SIGN IN</a>
+        </div>
+        <div id="collage">
+            <img class="out" id="pic1" src="./imgs/1.png" onclick="changeleft(), changeleft()">
+            <img class="second" id="pic2" src="./imgs/2.png" onclick="changeleft()">
+            <img class="middle" id="pic3" src="./imgs/3.png">
+            <img class="second" id="pic4" src="./imgs/4.png" onclick="changeleft()">
+            <img class="out" id="pic5" src="./imgs/5.png" onclick="changeleft(), changeleft()">
+        </div>
+        <div id="pass">
+            <i class="gg-chevron-left-r" id="left" onclick="changeleft()"></i>
+            <i class="gg-chevron-right-r" id="right" onclick="changeright()"></i>
+        </div>
+    </div>
+</body>
+
+</html>
